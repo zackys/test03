@@ -51,14 +51,6 @@ object test {
       case _ => (200, "-")
     }
     
-    val hh: (String, String, String) => (Int, String) = (x: String, y: String, z: String) => (x, y, z) match {
-      case ("-", "Y", "Y") => (150, "Y")
-      case ("-", "N", "Y") => (100, "Y")
-      case ("Y", "Y", "N") => ( 70, "Y")
-      case ("Y", "N", "N") => ( 50, "N")
-      case _ => (200, "-")
-    }
-    
     val hh = h("Y","Y","N") 
     println(hh)
     println(hh._1)
