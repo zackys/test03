@@ -7,7 +7,7 @@ import util.日付時刻
 import 部門._
 import Grade._
 
-
+//not added
 object test {
   //関数型（引数(Int, Int)と戻り値Int）の変数fに、関数リテラル（(n: Int, m:Int) => {n * m}）を代入
   val f: (Int, Int) => Int = (n: Int, m:Int) => {n * m}
