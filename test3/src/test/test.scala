@@ -51,6 +51,7 @@ object test {
       case _ => (200, "-")
     }
     
+    //コメント
     val hh = h("Y","Y","N") 
     println(hh)
     println(hh._1)
